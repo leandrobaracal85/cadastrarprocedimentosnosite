@@ -1,9 +1,11 @@
 from playwright.sync_api import sync_playwright
 import time
 import os
+import sys
+
 
 # Formulário para colar o caminho
-pasta_base = input("Cole o caminho da pasta onde estão os arquivos PDF: ").strip()
+pasta_base = sys.argv[1]
 
 # Arquivos esperados
 arquivos = ["capa.pdf", "extrato.pdf", "bo.pdf", "portaria.pdf"]
