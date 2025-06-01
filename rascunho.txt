@@ -1,0 +1,7 @@
+pagina.locator('xpath=//*[@id="navbarText"]/ul/li[6]/a')
+
+/html/body/div[2]/div/div/div/div/form/button[2]
+
+
+git config --global user.name "Leandro Baraçal"
+git config --global user.email leandrobaracal85@gmail.com
