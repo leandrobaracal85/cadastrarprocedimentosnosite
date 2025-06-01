@@ -14,7 +14,7 @@ pasta_base = sys.argv[1]
 arquivos = ["capa.pdf", "extrato.pdf", "bo.pdf", "portaria.pdf"]
 
 with sync_playwright() as p:
-    navegador = p.chromium.launch(headless=False)
+    navegador = p.chromium.launch(headless=True)
     pagina = navegador.new_page()
     pagina.goto("https://lebaracal.com/delegacia/visualizar.php")
 
